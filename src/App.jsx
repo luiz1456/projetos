@@ -16,12 +16,12 @@ function App() {
 
   return (
     <main>
-      <h1>Meus projetos</h1>
-      <div className="container-buttons">
-        <button onClick={() => handleClick('html')}>Html e CSS</button>
-        <button onClick={() => handleClick('javascript')}>JavaScript</button>
-        <button onClick={() => handleClick('react')}>React</button>
-        <button onClick={() => handleClick()}>Todos</button>
+      <h1 className='titulo'>Meus projetos</h1>
+      <div className="container-botoes">
+        <button className='botoes' onClick={() => handleClick('html')}>Html e CSS</button>
+        <button className='botoes' onClick={() => handleClick('javascript')}>JavaScript</button>
+        <button className='botoes' onClick={() => handleClick('react')}>React</button>
+        <button className='botoes' onClick={() => handleClick()}>Todos</button>
       </div>
       <div className="container-cards">
         {listaFiltrada.map((projeto, index) => {
