@@ -30,9 +30,9 @@ const renderTecnologia = (tecnologia) => {
 export default function Card(props) {
   return (
     <div className='card'>
-      <h1>{props.nome}</h1>
+      <h1 className='nome-projeto'>{props.nome}</h1>
       <p className='descricao'>{props.descricao}</p>
-      <img src={props.imagem} alt={props.imagem} />
+      <img className='imagem-projeto' src={props.imagem} alt={props.nome} />
       <div className="tecnologias">
 
         {props.tecnologias.map((tecnologia,index) => {
@@ -44,7 +44,10 @@ export default function Card(props) {
         })}
 
       </div>
-      <a className='link-projeto' href={props.link} target='_blank'>ver projeto</a>
+      <div className="container-links-projeto">
+        <a className='link-projeto' href={props.link} target='_blank'>ver projeto</a>
+        <a className='link-repositorio' href="#" target='_blank'><img src="assets/github.png" alt="" /></a>
+      </div>
     </div>
   )
 }

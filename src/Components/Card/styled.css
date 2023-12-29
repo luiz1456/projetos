@@ -12,7 +12,20 @@
     margin-top: 20px;
 }
 
-img {
+.nome-projeto {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: #1d1d1d;
+}
+
+.descricao {
+    font-size: 17px;
+    line-height: 20px;
+    color: #1d1d5f;
+}
+
+.imagem-projeto {
     max-width: 350px;
 }
 
@@ -33,18 +46,43 @@ img {
     width: 35px;
 }
 
+.container-links-projeto {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .link-projeto {
     width: 100%;
     background-color: #3333ff;
     padding: 15px 15px;
-    text-align: center;
+    border-radius: 15px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    font-size: 20px;
     margin-top: 10px;
-    border-radius: 15px;
     font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-repositorio {
+    background-color: #fff;
+    margin-left: 5px;
+    border-radius: 15px;
+    width: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.link-repositorio img {
+    width: 50px;
+    height: 50px;
 }
 
 .link-projeto:hover {
@@ -62,5 +100,15 @@ img {
 
     from {
         transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 780px) {
+    .card {
+        width: 100%;
+    }
+
+    .imagem-projeto {
+        min-width: 100%;
     }
 }
