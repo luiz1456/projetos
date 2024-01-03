@@ -48,12 +48,17 @@
     gap: 10px;
     position: absolute;
     right: 22px;
-    top: -30px;
+    top: -26px;
     padding: 10px 20px;
     border: 2px solid #a99d9d;
     background-color: #fff;
     border-radius: 30px;
+    
+}
 
+.container-img-tecnologia {
+    display: flex;
+    align-items: center;
 }
 
 .container-img-tecnologia img {
