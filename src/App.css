@@ -1,20 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins' , sans-serif ;
-}
-
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .titulo {
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -29,7 +22,7 @@ main {
 
 .container-botoes {
   width: 100%;
-  padding: 40px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -37,19 +30,38 @@ main {
 }
 
 .botoes {
-  padding: 10px;
-  width: 200px;
+  padding: 8px;
+  width: 150px;
   background-color: #000;
+  border-radius: 4px;
   color: #fff;
   font-size: 18px;
 }
 
-.container-cards {
+.botao-ativo {
+  background-color: #1fca36;
+  color: #000;
+  font-weight: bold;
+}
+
+.section-cards {
   display: flex;
   justify-content: center;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 100px 20px;
+}
+
+@media (min-width: 1024px) {
+  .container-cards {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 780px) {

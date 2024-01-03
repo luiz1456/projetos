@@ -1,34 +1,46 @@
 .card {
+    background-color: #fff;
     width: 350px;
     min-height: 500px;
+    height: auto;
     border: 2px solid #a99d9d;
     border-radius: 10px;
+    box-shadow: 0px 0px 7px 3px #aaaaaa;
     padding: 35px 25px 20px 25px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    box-shadow: inset 0px 0px 7px 5px #cab5b5;
     position: relative;
-    margin-top: 20px;
 }
 
 .nome-projeto {
+    height: 75px;
+    line-height: 30px;
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
     color: #1d1d1d;
-    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px #0000008a;
 }
 
 .descricao {
-    font-size: 17px;
+    height: 110px;
+    font-size: 16px;
     line-height: 20px;
     color: #1d1d5f;
-    padding-bottom: 22px;
+    margin-bottom: 10px;
+}
+
+.container-img-projeto {
+    padding: 20px 10px;
+    border-radius: 10px;
+    background: rgb(72, 72, 72);
 }
 
 .imagem-projeto {
-    max-width: 350px;
+    border: 1px solid #fff;
+    max-width: 100%;
 }
 
 .tecnologias {
@@ -45,7 +57,7 @@
 }
 
 .container-img-tecnologia img {
-    width: 35px;
+    width: 30px;
 }
 
 .container-links-projeto {
@@ -58,7 +70,7 @@
 .link-projeto {
     width: 100%;
     height: 50px;
-    background-color: #3333ff;
+    background-color: #000;
     padding: 10px 15px;
     border-radius: 15px;
     text-decoration: none;
@@ -80,7 +92,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .link-repositorio img {
@@ -90,7 +102,9 @@
 }
 
 .link-projeto:hover {
-    background-color: #ff3333;
+    background-color: #1fca36;
+    border: 1px solid #000;
+    color: #000;
 }
 
 .logo-react {
