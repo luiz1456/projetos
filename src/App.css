@@ -38,6 +38,13 @@ main {
   font-size: 18px;
 }
 
+.botoes:hover {
+  background-color: #1fca36;
+  color: #000;
+  font-weight: bold;
+
+}
+
 .botao-ativo {
   background-color: #1fca36;
   color: #000;
