@@ -1,4 +1,12 @@
 const ListaProjetos = [
+    { 
+        nome: 'Cardápio Restaurante',
+        descricao: 'Um cardápio para um restaurante feito em React durante os estudos na plataforma da DEVMEDIA.',
+        imagem: 'assets/cardapio.png',
+        link: 'https://luiz1456.github.io/cardapio-restaurante/',
+        tecnologia: ['react'],
+        repositorio: 'https://github.com/luiz1456/cardapio-restaurante.git'
+    },
     {
         nome: 'M. agência',
         descricao: 'Um site de uma agência feito durante os estudos na plataforma da DEVMEDIA,feito com o intuito de praticar o uso de evento onClick.',

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './styled.css'
 
 const renderTecnologia = (tecnologia) => {
@@ -25,11 +24,18 @@ const renderTecnologia = (tecnologia) => {
 
 
 export default function Card(props) {
+
   return (
     <div className='card'>
       <h1 className='nome-projeto'>{props.nome}</h1>
       <p className='descricao'>{props.descricao}</p>
-      <div className="container-img-projeto"><img className='imagem-projeto' src={props.imagem} alt={props.nome} /></div>
+      <div className="container-img-projeto">
+        <img
+          className='imagem-projeto'
+          src={props.imagem}
+          alt={props.nome}
+        />
+      </div>
       <div className="tecnologias">
         {props.tecnologias.map((tecnologia, index) => {
           return (
