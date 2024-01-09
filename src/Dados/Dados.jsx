@@ -82,7 +82,7 @@ const ListaProjetos = [
         nome: 'coffee house',
         descricao: 'Um site para uma cafeteria feito durante os estudos na plataforma da DEVMEDIA ultilizando as tecnologias HTML e CSS.',
         imagem: 'assets/cafeteria.png',
-        link: 'https://luiz1456.github.io/cafeteria/cafeteria/',
+        link: 'https://luiz1456.github.io/cafeteria/',
         tecnologia: ['html', 'css'],
         repositorio: 'https://github.com/luiz1456/cafeteria.git'
     },
