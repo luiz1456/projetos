@@ -66,7 +66,7 @@ const ListaProjetos = [
         nome: 'Pousada Secreta',
         descricao: 'Um site de uma pousada,feito durante os estudos na plataforma da DEVMEDIA.',
         imagem: 'assets/pousada-secreta.png',
-        link: 'https://luiz1456.github.io/pousada-secreta/pousada-secreta/',
+        link: 'https://luiz1456.github.io/pousada-secreta/',
         tecnologia: ['html', 'css'],
         repositorio: 'https://github.com/luiz1456/pousada-secreta.git'
     },
